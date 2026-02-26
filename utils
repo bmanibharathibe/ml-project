@@ -1,0 +1,17 @@
+# utils.py
+
+def check_accuracy(model, X, y):
+
+    # Predict using model
+    predictions = model.predict(X)
+
+    # Calculate accuracy manually
+    correct = 0
+
+    for i in range(len(y)):
+        if predictions[i] == y[i]:
+            correct += 1
+
+    accuracy = correct / len(y)
+
+    print("Model Accuracy:", accuracy)
