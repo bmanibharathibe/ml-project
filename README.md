@@ -2,9 +2,7 @@
 
 
 
-# Simple ML Project
 
-This is a basic machine learning project using Python.
 
 ## Files
 
